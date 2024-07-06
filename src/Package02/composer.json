@@ -2,6 +2,7 @@
     "name": "sonypradana/test-split-package-02",
     "description": "use for testing only",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Sonypradana\\TestSplitPackage02\\": ""

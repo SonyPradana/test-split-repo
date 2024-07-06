@@ -14,8 +14,8 @@ return static function (MBConfig $mbConfig): void {
 
     $mbConfig->workers([
         UpdateReplaceReleaseWorker::class,
-        SetCurrentMutualDependenciesReleaseWorker,
+        SetCurrentMutualDependenciesReleaseWorker::class,
         TagVersionReleaseWorker::class,
         PushTagReleaseWorker::class,
-    ])
+    ]);
 };
