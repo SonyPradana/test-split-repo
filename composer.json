@@ -1,0 +1,20 @@
+{
+    "name": "sonypradana/test-split-repo",
+    "description": "use for testing only",
+    "type": "library",
+    "require-dev": {
+        "symplify/monorepo-builder": "^11.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sonypradana\\TestSplitRepo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SonyPradana",
+            "email": "sonypradana@gmail.com"
+        }
+    ],
+    "require": {}
+}

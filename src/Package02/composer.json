@@ -1,0 +1,17 @@
+{
+    "name": "sonypradana/test-split-package-02",
+    "description": "use for testing only",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Sonypradana\\TestSplitPackage02\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "SonyPradana",
+            "email": "sonypradana@gmail.com"
+        }
+    ],
+    "require": {}
+}
